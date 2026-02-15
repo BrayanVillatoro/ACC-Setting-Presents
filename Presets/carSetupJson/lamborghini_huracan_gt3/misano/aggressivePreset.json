@@ -1,0 +1,89 @@
+{
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreSet": 0,
+			"tyreCompound": 0,
+			"tyrePressure": [ 8, 19, 5, 13 ]
+		},
+		"alignment":
+		{
+			"camber": [ 9, 9, 12, 12 ],
+			"toe": [ 30, 30, 60, 55 ],
+			"staticCamber": [ -3.9826860427856445, -3.9676320552825928, -3.5374159812927246, -3.5280206203460693 ],
+			"toeOutLinear": [ 8.626876660855487e-05, 8.623316534794867e-05, 0.00043193603050895035, 0.00032327146618627012 ],
+			"steerRatio": 1
+		},
+		"electronics":
+		{
+			"tC1": 3,
+			"tC2": 0,
+			"aBS": 4,
+			"eCUMap": 1,
+			"fuelMix": 0
+		},
+		"strategy":
+		{
+			"fuel": 60,
+			"pitStrategy":
+			{
+				"fuelToAdd": 0,
+				"tyres": [
+					{
+						"tyreSet": 0,
+						"tyreCompound": 0,
+						"tyrePressure": [ 0, 0, 0, 0 ]
+					},
+					{
+						"tyreSet": 0,
+						"tyreCompound": 0,
+						"tyrePressure": [ 0, 0, 0, 0 ]
+					},
+					{
+						"tyreSet": 0,
+						"tyreCompound": 0,
+						"tyrePressure": [ 0, 0, 0, 0 ]
+					},
+					{
+						"tyreSet": 0,
+						"tyreCompound": 0,
+						"tyrePressure": [ 0, 0, 0, 0 ]
+					}
+				]
+			}
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 5,
+			"aRBRear": 1,
+			"wheelRate": [ 5, 5, 9, 9 ],
+			"bumpStopRateUp": [ 2, 2, 1, 1 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 2, 2, 4, 4 ],
+			"brakeTorque": 20,
+			"brakeBias": 11
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 25, 25, 30, 30 ],
+			"bumpFast": [ 15, 15, 15, 15 ],
+			"reboundSlow": [ 27, 27, 30, 30 ],
+			"reboundFast": [ 25, 25, 45, 45 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 1, 6, 14, 18 ],
+			"rodLength": [ -3.9943969249725342, -3.9943969249725342, 17.050930023193359, 17.050930023193359 ],
+			"splitter": 0,
+			"rearWing": 18
+		},
+		"drivetrain":
+		{
+			"preload": 18
+		}
+	}
+}
